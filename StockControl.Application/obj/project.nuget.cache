@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "krnSVV8EBOE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Application\\StockControl.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dimas\\.nuget\\packages\\questpdf\\2025.7.0\\questpdf.2025.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

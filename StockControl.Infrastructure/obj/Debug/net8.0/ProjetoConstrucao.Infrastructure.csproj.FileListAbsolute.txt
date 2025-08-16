@@ -1,0 +1,15 @@
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoConstrucao.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoConstrucao.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoConstrucao.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoConstrucao.Infrastructure.AssemblyInfo.cs
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoConstrucao.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\bin\Debug\net8.0\ProjetoConstrucao.Infrastructure.deps.json
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\bin\Debug\net8.0\ProjetoConstrucao.Infrastructure.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\bin\Debug\net8.0\ProjetoConstrucao.Infrastructure.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\bin\Debug\net8.0\ProjetoConstrucao.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\bin\Debug\net8.0\ProjetoConstrucao.Domain.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoC.1FC9CA46.Up2Date
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoConstrucao.Infrastructure.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\refint\ProjetoConstrucao.Infrastructure.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ProjetoConstrucao.Infrastructure.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Infrastructure\obj\Debug\net8.0\ref\ProjetoConstrucao.Infrastructure.dll

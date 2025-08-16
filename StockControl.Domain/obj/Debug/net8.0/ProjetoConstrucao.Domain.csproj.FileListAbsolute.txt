@@ -1,0 +1,11 @@
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\bin\Debug\net8.0\ProjetoConstrucao.Domain.deps.json
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\bin\Debug\net8.0\ProjetoConstrucao.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\bin\Debug\net8.0\ProjetoConstrucao.Domain.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\ProjetoConstrucao.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\ProjetoConstrucao.Domain.AssemblyInfoInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\ProjetoConstrucao.Domain.AssemblyInfo.cs
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\ProjetoConstrucao.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\ProjetoConstrucao.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\refint\ProjetoConstrucao.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\ProjetoConstrucao.Domain.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\ProjetoNovo\ProjetoConstrucao.Domain\obj\Debug\net8.0\ref\ProjetoConstrucao.Domain.dll

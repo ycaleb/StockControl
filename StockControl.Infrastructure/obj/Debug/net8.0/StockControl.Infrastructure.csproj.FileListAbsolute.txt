@@ -1,0 +1,15 @@
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\bin\Debug\net8.0\StockControl.Infrastructure.deps.json
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\bin\Debug\net8.0\StockControl.Infrastructure.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\bin\Debug\net8.0\StockControl.Infrastructure.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\bin\Debug\net8.0\StockControl.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\bin\Debug\net8.0\StockControl.Domain.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockControl.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockControl.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockControl.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockControl.Infrastructure.AssemblyInfo.cs
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockControl.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockCon.6C9F7317.Up2Date
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockControl.Infrastructure.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\refint\StockControl.Infrastructure.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\StockControl.Infrastructure.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Infrastructure\obj\Debug\net8.0\ref\StockControl.Infrastructure.dll
