@@ -133,6 +133,4 @@ Exemplo de movimento (saída):
 - `GET /api/relatorios/gastos/pdf?inicio=2025-01-01&fim=2025-12-31` — baixa PDF com gastos (somente "saída").
 
 ## Próximos passos
-⬜ Melhorias em validações
 ⬜ Frontend - React
-⬜ Token JWT
