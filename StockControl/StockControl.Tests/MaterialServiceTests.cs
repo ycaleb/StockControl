@@ -94,5 +94,82 @@ namespace StockControl.Tests
 
             Assert.Null(result);
         }
+
+        [Fact]
+        public async Task Create_NomeVazio_DeveRetornarFalha()
+        {
+            var material = new Material
+            {
+                Nome = "",
+                UnidadeMedida = "Kg",
+                CustoUnitario = 10
+            };
+
+            var result = await _service.CreateAsync(material);
+
+            Assert.False(result.sucesso);
+            Assert.Equal("Nome obrigatório",result.mensagem);
+            _mockRepo.Verify(x => x.AddAsync(It.IsAny<Material>()),Times.Never);
+        }
+
+        [Fact]
+        public async Task Create_UnidadeMedidaVazia_DeveRetornarFalha()
+        {
+            var material = new Material
+            {
+                Nome = "Cimento",
+                UnidadeMedida = "",
+                CustoUnitario = 10
+            };
+
+            var result = await _service.CreateAsync(material);
+
+            Assert.False(result.sucesso);
+            Assert.Equal("Unidade obrigatória",result.mensagem);
+            _mockRepo.Verify(x => x.AddAsync(It.IsAny<Material>()),Times.Never);
+        }
+
+        [Fact]
+        public async Task Create_CustoNegativo_DeveRetornarFalha()
+        {
+            var material = new Material
+            {
+                Nome = "Cimento",
+                UnidadeMedida = "Kg",
+                CustoUnitario = -5
+            };
+
+            var result = await _service.CreateAsync(material);
+
+            Assert.False(result.sucesso);
+            Assert.Equal("Custo inválido",result.mensagem);
+            _mockRepo.Verify(x => x.AddAsync(It.IsAny<Material>()),Times.Never);
+        }
+
+        [Fact]
+        public async Task Update_MaterialNaoExiste_DeveRetornarFalha()
+        {
+            _mockRepo.Setup(x => x.GetByIdAsync(99)).ReturnsAsync((Material?)null);
+
+            var result = await _service.UpdateAsync(99,new Material());
+
+            Assert.False(result.sucesso);
+            Assert.Equal("Material não encontrado",result.mensagem);
+            _mockRepo.Verify(x => x.UpdateAsync(It.IsAny<Material>()),Times.Never);
+        }
+
+        [Fact]
+        public async Task Delete_MaterialNaoExiste_DeveRetornarFalha()
+        {
+            _mockRepo.Setup(x => x.GetByIdAsync(99)).ReturnsAsync((Material?)null);
+
+            var result = await _service.DeleteAsync(99);
+
+            Assert.False(result.sucesso);
+            Assert.Equal("Material não encontrado",result.mensagem);
+            _mockRepo.Verify(x => x.RemoveAsync(It.IsAny<Material>()),Times.Never);
+        }
+
+
     }
 }
