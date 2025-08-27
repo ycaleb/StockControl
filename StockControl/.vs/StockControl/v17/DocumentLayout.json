@@ -1,15 +1,23 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl\\StockControl\\",
+  "WorkspaceRootPath": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCAA7E44-4B3B-0D1C-373F-E6C7D93B4E42}|..\\StockControl.Application\\StockControl.Application.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol\\stockcontrol.application\\services\\relatorioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8900982E-314E-336F-8B52-0797702A502F}|..\\StockControl.Domain\\StockControl.Domain.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol-c#\\stockcontrol\\stockcontrol.domain\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8900982E-314E-336F-8B52-0797702A502F}|..\\StockControl.Domain\\StockControl.Domain.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol\\stockcontrol.domain\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCAA7E44-4B3B-0D1C-373F-E6C7D93B4E42}|..\\StockControl.Application\\StockControl.Application.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol-c#\\stockcontrol\\stockcontrol.application\\services\\materialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E3C1C3-BEF7-3F78-8239-28EE5C00EECE}|..\\StockControl.API\\StockControl.API.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol\\stockcontrol.api\\controllers\\materiaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E064F642-1B65-4FD1-B07F-41ADB618B28F}|StockControl.Tests\\StockControl.Tests.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol-c#\\stockcontrol\\stockcontrol\\stockcontrol.tests\\materialservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E064F642-1B65-4FD1-B07F-41ADB618B28F}|StockControl.Tests\\StockControl.Tests.csproj|solutionrelative:stockcontrol.tests\\materialservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E064F642-1B65-4FD1-B07F-41ADB618B28F}|StockControl.Tests\\StockControl.Tests.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol-c#\\stockcontrol\\stockcontrol\\stockcontrol.tests\\estoqueservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E064F642-1B65-4FD1-B07F-41ADB618B28F}|StockControl.Tests\\StockControl.Tests.csproj|solutionrelative:stockcontrol.tests\\estoqueservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC43738-84BC-34F9-6B9F-5847239EA5F0}|..\\StockControl.Infrastructure\\StockControl.Infrastructure.csproj|c:\\users\\dimas\\onedrive\\\u00E1rea de trabalho\\estudo\\stockcontrol-c#\\stockcontrol\\stockcontrol.infrastructure\\repositories\\materialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,49 +27,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Domain\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "..\\StockControl.Domain\\Models\\Material.cs",
+              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Domain\\Models\\Material.cs",
+              "RelativeToolTip": "..\\StockControl.Domain\\Models\\Material.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:39:31.965Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RelatorioService.cs",
-              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl\\StockControl.Application\\Services\\RelatorioService.cs",
-              "RelativeDocumentMoniker": "..\\StockControl.Application\\Services\\RelatorioService.cs",
-              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl\\StockControl.Application\\Services\\RelatorioService.cs",
-              "RelativeToolTip": "..\\StockControl.Application\\Services\\RelatorioService.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAxwFQAAABKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EstoqueServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl\\StockControl.Tests\\EstoqueServiceTests.cs",
+              "RelativeDocumentMoniker": "StockControl.Tests\\EstoqueServiceTests.cs",
+              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl\\StockControl.Tests\\EstoqueServiceTests.cs",
+              "RelativeToolTip": "StockControl.Tests\\EstoqueServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T00:46:40.194Z",
+              "WhenOpened": "2025-08-23T23:48:50.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Material.cs",
-              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl\\StockControl.Domain\\Models\\Material.cs",
-              "RelativeDocumentMoniker": "..\\StockControl.Domain\\Models\\Material.cs",
-              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl\\StockControl.Domain\\Models\\Material.cs",
-              "RelativeToolTip": "..\\StockControl.Domain\\Models\\Material.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MaterialRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Infrastructure\\Repositories\\MaterialRepository.cs",
+              "RelativeDocumentMoniker": "..\\StockControl.Infrastructure\\Repositories\\MaterialRepository.cs",
+              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Infrastructure\\Repositories\\MaterialRepository.cs",
+              "RelativeToolTip": "..\\StockControl.Infrastructure\\Repositories\\MaterialRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T00:42:10.97Z",
+              "WhenOpened": "2025-08-23T23:44:31.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MaterialService.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Application\\Services\\MaterialService.cs",
+              "RelativeDocumentMoniker": "..\\StockControl.Application\\Services\\MaterialService.cs",
+              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Application\\Services\\MaterialService.cs",
+              "RelativeToolTip": "..\\StockControl.Application\\Services\\MaterialService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBQAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T23:42:48.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MateriaisController.cs",
-              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl\\StockControl.API\\Controllers\\MateriaisController.cs",
-              "RelativeDocumentMoniker": "..\\StockControl.API\\Controllers\\MateriaisController.cs",
-              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl\\StockControl.API\\Controllers\\MateriaisController.cs",
-              "RelativeToolTip": "..\\StockControl.API\\Controllers\\MateriaisController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwBsAAAA3AAAAAAAAAA==",
+              "Title": "MaterialServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl\\StockControl.Tests\\MaterialServiceTests.cs",
+              "RelativeDocumentMoniker": "StockControl.Tests\\MaterialServiceTests.cs",
+              "ToolTip": "C:\\Users\\dimas\\OneDrive\\\u00C1rea de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl\\StockControl.Tests\\MaterialServiceTests.cs",
+              "RelativeToolTip": "StockControl.Tests\\MaterialServiceTests.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA0wEkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T00:32:50.899Z",
+              "WhenOpened": "2025-08-23T23:39:08.161Z",
               "EditorCaption": ""
             }
           ]

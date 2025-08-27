@@ -469,6 +469,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.8",
+          "StockControl.Application": "1.0.0",
           "StockControl.Domain": "1.0.0"
         },
         "compile": {
@@ -1318,11 +1319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.API\\StockControl.API.csproj",
+      "projectUniqueName": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.API\\StockControl.API.csproj",
       "projectName": "StockControl.API",
-      "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.API\\StockControl.API.csproj",
+      "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.API\\StockControl.API.csproj",
       "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.API\\obj\\",
+      "outputPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1343,11 +1344,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Application\\StockControl.Application.csproj": {
-              "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Application\\StockControl.Application.csproj"
+            "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Application\\StockControl.Application.csproj": {
+              "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Application\\StockControl.Application.csproj"
             },
-            "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Infrastructure\\StockControl.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Infrastructure\\StockControl.Infrastructure.csproj"
+            "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Infrastructure\\StockControl.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Infrastructure\\StockControl.Infrastructure.csproj"
             }
           }
         }

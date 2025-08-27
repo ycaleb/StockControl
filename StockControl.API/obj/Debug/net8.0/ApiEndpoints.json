@@ -1,24 +1,24 @@
 [
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.EstoqueController",
+    "ContainingType": "StockControl.Controllers.EstoqueController",
     "Method": "Movimentar",
-    "RelativePath": "api/Estoque/movimentar",
+    "RelativePath": "api/Estoque/Movimentar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "ProjetoConstrucao.API.Models.MovimentoEstoqueCreateDTO",
+        "Type": "StockControl.Models.MovimentoEstoqueCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.EstoqueController",
+    "ContainingType": "StockControl.Controllers.EstoqueController",
     "Method": "ListarMovimentos",
-    "RelativePath": "api/Estoque/movimentos",
+    "RelativePath": "api/Estoque/Movimentos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -32,7 +32,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.MateriaisController",
+    "ContainingType": "StockControl.Controllers.MateriaisController",
     "Method": "GetAll",
     "RelativePath": "api/Materiais",
     "HttpMethod": "GET",
@@ -41,7 +41,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProjetoConstrucao.API.Models.Material, StockControl.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StockControl.Models.Material, StockControl.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.MateriaisController",
+    "ContainingType": "StockControl.Controllers.MateriaisController",
     "Method": "Create",
     "RelativePath": "api/Materiais",
     "HttpMethod": "POST",
@@ -61,14 +61,14 @@
     "Parameters": [
       {
         "Name": "material",
-        "Type": "ProjetoConstrucao.API.Models.Material",
+        "Type": "StockControl.Models.Material",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.MateriaisController",
+    "ContainingType": "StockControl.Controllers.MateriaisController",
     "Method": "GetById",
     "RelativePath": "api/Materiais/{id}",
     "HttpMethod": "GET",
@@ -83,7 +83,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ProjetoConstrucao.API.Models.Material",
+        "Type": "StockControl.Models.Material",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.MateriaisController",
+    "ContainingType": "StockControl.Controllers.MateriaisController",
     "Method": "Update",
     "RelativePath": "api/Materiais/{id}",
     "HttpMethod": "PUT",
@@ -108,14 +108,14 @@
       },
       {
         "Name": "input",
-        "Type": "ProjetoConstrucao.API.Models.Material",
+        "Type": "StockControl.Models.Material",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.MateriaisController",
+    "ContainingType": "StockControl.Controllers.MateriaisController",
     "Method": "Delete",
     "RelativePath": "api/Materiais/{id}",
     "HttpMethod": "DELETE",
@@ -131,7 +131,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ProjetoConstrucao.API.Controllers.RelatoriosController",
+    "ContainingType": "StockControl.Controllers.RelatoriosController",
     "Method": "GerarRelatorioPDF",
     "RelativePath": "api/Relatorios/gastos/pdf",
     "HttpMethod": "GET",

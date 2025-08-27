@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1quRiX4KWQI=",
+  "dgSpecHash": "NImTPz2uGJc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Infrastructure\\StockControl.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Infrastructure\\StockControl.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimas\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\dimas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
@@ -14,7 +14,8 @@
     "C:\\Users\\dimas\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\dimas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dimas\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\dimas\\.nuget\\packages\\questpdf\\2025.7.0\\questpdf.2025.7.0.nupkg.sha512"
   ],
   "logs": []
 }

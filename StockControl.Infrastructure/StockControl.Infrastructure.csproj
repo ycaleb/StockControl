@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\StockControl.Application\StockControl.Application.csproj" />
     <ProjectReference Include="..\StockControl.Domain\StockControl.Domain.csproj" />    
   </ItemGroup>
 

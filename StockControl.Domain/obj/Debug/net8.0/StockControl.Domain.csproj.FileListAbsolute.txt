@@ -9,3 +9,15 @@ C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Domai
 C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Domain\obj\Debug\net8.0\refint\StockControl.Domain.dll
 C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.pdb
 C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl\StockControl.Domain\obj\Debug\net8.0\ref\StockControl.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\bin\Debug\net8.0\StockControl.Domain.deps.json
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\bin\Debug\net8.0\StockControl.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\bin\Debug\net8.0\StockControl.Domain.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.AssemblyInfoInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.AssemblyInfo.cs
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.sourcelink.json
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\refint\StockControl.Domain.dll
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\StockControl.Domain.pdb
+C:\Users\dimas\OneDrive\Área de Trabalho\ESTUDO\StockControl-C#\StockControl\StockControl.Domain\obj\Debug\net8.0\ref\StockControl.Domain.dll

@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Estoque/movimentar": {
+    "/api/Estoque/Movimentar": {
       "post": {
         "tags": [
           "Estoque"
@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/Estoque/movimentos": {
+    "/api/Estoque/Movimentos": {
       "get": {
         "tags": [
           "Estoque"

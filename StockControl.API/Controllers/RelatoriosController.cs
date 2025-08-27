@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ProjetoConstrucao.API.Data;
-using ProjetoConstrucao.API.Services;
+using StockControl.Data;
+using StockControl.Services;
 
-namespace ProjetoConstrucao.API.Controllers
+namespace StockControl.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

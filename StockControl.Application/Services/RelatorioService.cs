@@ -1,8 +1,8 @@
-using ProjetoConstrucao.API.Models;
+using StockControl.Models;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 
-namespace ProjetoConstrucao.API.Services
+namespace StockControl.Services
 {
     public class RelatorioService
     {

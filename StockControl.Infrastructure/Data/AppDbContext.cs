@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ProjetoConstrucao.API.Models;
+using StockControl.Models;
 
-namespace ProjetoConstrucao.API.Data
+namespace StockControl.Data
 {
     public class AppDbContext : DbContext
     {

@@ -1,4 +1,4 @@
-namespace ProjetoConstrucao.API.Models
+namespace StockControl.Models
 {
     public class Material
     {

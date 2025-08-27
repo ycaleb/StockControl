@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj": {}
+    "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj": {
+    "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj",
         "projectName": "StockControl.Domain",
-        "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj",
+        "projectPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Domain\\StockControl.Domain.csproj",
         "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl\\StockControl.Domain\\obj\\",
+        "outputPath": "C:\\Users\\dimas\\OneDrive\\Área de Trabalho\\ESTUDO\\StockControl-C#\\StockControl\\StockControl.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
