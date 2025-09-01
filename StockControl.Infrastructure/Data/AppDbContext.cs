@@ -9,6 +9,8 @@ namespace StockControl.Data
 
         public DbSet<Material> Materiais => Set<Material>();
         public DbSet<MovimentoEstoque> MovimentosEstoque => Set<MovimentoEstoque>();
+        public DbSet<Usuario> Usuarios { get; set; } = null!;
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

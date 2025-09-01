@@ -1,6 +1,6 @@
 ﻿namespace StockControl.Models
 {
-    public class MovimentoEstoqueCreateDTO
+    public class MovimentoEstoqueCreate
     {
         public int MaterialId { get; set; }
         public int Quantidade { get; set; }

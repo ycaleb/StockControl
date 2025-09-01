@@ -5,10 +5,10 @@ using StockControl.Models;
 namespace StockControl.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class MateriaisController : ControllerBase
+public class MaterialController : ControllerBase
 {
     private readonly MaterialService _materialService;
-    public MateriaisController(MaterialService materialService) => _materialService = materialService;
+    public MaterialController(MaterialService materialService) => _materialService = materialService;
 
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Material>>> GetAll()

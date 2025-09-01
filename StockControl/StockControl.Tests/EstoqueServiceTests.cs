@@ -22,7 +22,7 @@ namespace StockControl.Tests
             var material = new Material { Id = 1,Nome = "Cimento",QuantidadeEstoque = 10,CustoUnitario = 5 };
             _materialRepoMock.Setup(r => r.GetByIdAsync(1)).ReturnsAsync(material);
 
-            var dto = new MovimentoEstoqueCreateDTO { MaterialId = 1,Quantidade = 5,Tipo = "entrada" };
+            var dto = new MovimentoEstoqueCreate { MaterialId = 1,Quantidade = 5,Tipo = "entrada" };
 
             var result = await _service.MovimentarAsync(dto);
 
@@ -38,7 +38,7 @@ namespace StockControl.Tests
             var material = new Material { Id = 1,Nome = "Cimento",QuantidadeEstoque = 10,CustoUnitario = 5 };
             _materialRepoMock.Setup(r => r.GetByIdAsync(1)).ReturnsAsync(material);
 
-            var dto = new MovimentoEstoqueCreateDTO { MaterialId = 1,Quantidade = 4,Tipo = "saida" };
+            var dto = new MovimentoEstoqueCreate { MaterialId = 1,Quantidade = 4,Tipo = "saida" };
 
             var result = await _service.MovimentarAsync(dto);
 
@@ -53,7 +53,7 @@ namespace StockControl.Tests
         {
             _materialRepoMock.Setup(r => r.GetByIdAsync(1)).ReturnsAsync((Material?)null);
 
-            var dto = new MovimentoEstoqueCreateDTO { MaterialId = 1,Quantidade = 5,Tipo = "entrada" };
+            var dto = new MovimentoEstoqueCreate { MaterialId = 1,Quantidade = 5,Tipo = "entrada" };
 
             var result = await _service.MovimentarAsync(dto);
 
@@ -69,7 +69,7 @@ namespace StockControl.Tests
             var material = new Material { Id = 1,Nome = "Cimento",QuantidadeEstoque = 10 };
             _materialRepoMock.Setup(r => r.GetByIdAsync(1)).ReturnsAsync(material);
 
-            var dto = new MovimentoEstoqueCreateDTO { MaterialId = 1,Quantidade = 5,Tipo = "transferencia" };
+            var dto = new MovimentoEstoqueCreate { MaterialId = 1,Quantidade = 5,Tipo = "transferencia" };
 
             var result = await _service.MovimentarAsync(dto);
 
@@ -86,7 +86,7 @@ namespace StockControl.Tests
             var material = new Material { Id = 1,Nome = "Cimento",QuantidadeEstoque = 10 };
             _materialRepoMock.Setup(r => r.GetByIdAsync(1)).ReturnsAsync(material);
 
-            var dto = new MovimentoEstoqueCreateDTO { MaterialId = 1,Quantidade = 0,Tipo = "saida" };
+            var dto = new MovimentoEstoqueCreate { MaterialId = 1,Quantidade = 0,Tipo = "saida" };
 
             var result = await _service.MovimentarAsync(dto);
 
@@ -102,7 +102,7 @@ namespace StockControl.Tests
             var material = new Material { Id = 1,Nome = "Cimento",QuantidadeEstoque = 3 };
             _materialRepoMock.Setup(r => r.GetByIdAsync(1)).ReturnsAsync(material);
 
-            var dto = new MovimentoEstoqueCreateDTO { MaterialId = 1,Quantidade = 10,Tipo = "saida" };
+            var dto = new MovimentoEstoqueCreate { MaterialId = 1,Quantidade = 10,Tipo = "saida" };
 
             var result = await _service.MovimentarAsync(dto);
 

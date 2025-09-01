@@ -13,7 +13,7 @@ public class EstoqueService
         _movRepo = movRepo;
     }
 
-    public async Task<(bool sucesso, string mensagem, int saldo)> MovimentarAsync(MovimentoEstoqueCreateDTO dto)
+    public async Task<(bool sucesso, string mensagem, int saldo)> MovimentarAsync(MovimentoEstoqueCreate dto)
     {
         var material = await _materialRepo.GetByIdAsync(dto.MaterialId);
         if(material is null)

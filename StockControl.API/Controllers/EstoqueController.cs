@@ -12,7 +12,7 @@ namespace StockControl.Controllers
         public EstoqueController(EstoqueService estoqueService) => _estoqueService = estoqueService;
 
         [HttpPost("Movimentar")]
-        public async Task<ActionResult> Movimentar([FromBody] MovimentoEstoqueCreateDTO dto)
+        public async Task<ActionResult> Movimentar([FromBody] MovimentoEstoqueCreate dto)
         {
             var result = await _estoqueService.MovimentarAsync(dto);
             if(!result.sucesso) return BadRequest(result.mensagem);

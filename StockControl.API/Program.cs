@@ -19,6 +19,8 @@ builder.Services.AddScoped<IMaterialRepository,MaterialRepository>();
 builder.Services.AddScoped<IMovimentoEstoqueRepository,MovimentoEstoqueRepository>();
 builder.Services.AddScoped<IMaterialRepository,MaterialRepository>();
 builder.Services.AddScoped<MaterialService>();
+builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<IUsuarioRepository,UsuarioRepository>();
 
 
 builder.Services.AddControllers();
