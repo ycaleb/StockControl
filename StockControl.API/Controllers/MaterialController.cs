@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StockControl.Application.Services;
 using StockControl.Models;
 
 namespace StockControl.Controllers;
+
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class MaterialController : ControllerBase
 {
     private readonly MaterialService _materialService;

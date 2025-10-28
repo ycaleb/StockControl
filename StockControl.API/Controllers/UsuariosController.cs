@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using StockControl.Application.Interfaces;
 using StockControl.Application.Services;
 using StockControl.Models;
 
@@ -6,16 +8,24 @@ namespace StockControl.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+
 public class UsuariosController : ControllerBase
 {
     private readonly UsuarioService _usuarioService;
-    public UsuariosController(UsuarioService usuarioService) => _usuarioService = usuarioService;
+    private readonly ITokenService _tokenService;
+    public UsuariosController(UsuarioService usuarioService, ITokenService tokenService)
+    {
+        _usuarioService = usuarioService;
+        _tokenService = tokenService;
+    }
 
     [HttpGet]
+    [Authorize]
     public async Task<ActionResult<IEnumerable<Usuario>>> GetAll()
         => Ok(await _usuarioService.GetAllAsync());
 
     [HttpGet("{id:int}")]
+    [Authorize]
     public async Task<ActionResult<Usuario>> GetById(int id)
     {
         var user = await _usuarioService.GetByIdAsync(id);
@@ -23,6 +33,7 @@ public class UsuariosController : ControllerBase
     }
 
     [HttpPost]
+    [AllowAnonymous]
     public async Task<ActionResult> Create([FromBody] UsuarioDto dto)
     {
         var usuario = new Usuario { Nome = dto.Nome,Cpf = dto.Cpf };
@@ -33,6 +44,7 @@ public class UsuariosController : ControllerBase
     }
 
     [HttpPut("{id:int}")]
+    [Authorize]
     public async Task<ActionResult> Update(int id,[FromBody] UsuarioDto dto)
     {
         var input = new Usuario { Nome = dto.Nome,Cpf = dto.Cpf };
@@ -41,6 +53,7 @@ public class UsuariosController : ControllerBase
     }
 
     [HttpDelete("{id:int}")]
+    [Authorize]
     public async Task<ActionResult> Delete(int id)
     {
         var result = await _usuarioService.DeleteAsync(id);
@@ -48,11 +61,19 @@ public class UsuariosController : ControllerBase
     }
 
     [HttpPost("login")]
+    [AllowAnonymous]
     public async Task<ActionResult> Login([FromBody] LoginDto dto)
     {
-        var result = await _usuarioService.LoginAsync(dto.Nome,dto.Senha);
-        if(!result.sucesso) return Unauthorized(result.mensagem);
-        return Ok(new { result.usuario!.Id,result.usuario.Nome });
+        var result = await _usuarioService.LoginAsync(dto.Nome, dto.Senha);
+        if (!result.sucesso) return Unauthorized(result.mensagem);
+
+        var token = _tokenService.GenerateToken(result.usuario!.Id.ToString(), result.usuario.Nome);
+
+        return Ok(new
+        {
+            user = new { result.usuario.Id, result.usuario.Nome, result.usuario.Cpf },
+            token
+        });
     }
 
     public record LoginDto(string Nome,string Senha);

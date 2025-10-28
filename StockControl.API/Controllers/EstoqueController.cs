@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StockControl.Application.Services;
 using StockControl.Models;
@@ -6,6 +7,7 @@ namespace StockControl.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class EstoqueController : ControllerBase
     {
         private readonly EstoqueService _estoqueService;
