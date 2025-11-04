@@ -1,136 +1,223 @@
-
-[EN]
 # StockControl.API
 
-.NET 8 API for expense control, with inventory control and PDF report export (QuestPDF) of desired materials.
+Backend-only. 
 
-## Technologies
-- .NET 8 (ASP.NET Core Web API)
-- EF Core InMemory
-- Swagger (documentation)
-- QuestPDF (PDF Report)
+API REST em **.NET 8** para controle de materiais e estoque, com:
 
-## How to run
-```bash
-dotnet restore
-dotnet run
-```
+- Clean Architecture
+- Clean Code
+- Autenticação JWT
+- CRUD de usuários e materiais
+- Movimentações de estoque (entrada/saída)
+- Relatórios em PDF (QuestPDF)
+- Seeds automáticos
+- Swagger
 
-## Endpoints
-
-### Materials
-- `GET /api/materials` — list materials
-- `GET /api/materials/{id}` — details
-- `POST /api/materials` — create
-- `PUT /api/materials/{id}` — update
-- `DELETE /api/materials/{id}` — remove
-
-Example of material:
-```json
-{
-  “name”: “CP-II Cement”,
-  “unitOfMeasure”: “bag”,
-  “unitCost”: 35.50,
-  “stockQuantity”: 0
-}
-```
-
-### Inventory
-- `POST /api/inventory/move` — entry/exit
-- `GET /api/stock/movements?materialId=1` — list movements
-
-Example of movement (entry):
-```json
-{
-  “materialId”: 1,
-  “quantity”: 10,
-  “type”: “entry”,
-  “observation”: “Purchase from supplier X”
-}
-```
-
-Example of movement (output):
-```json
-{
-  “materialId”: 1,
-  “quantity”: 3,
-  “type”: “output”,
-  “observation”: “Use in project Y”
-}
-```
-
-### Reports
-- `GET /api/reports/expenses/pdf?start=2025-01-01&end=2025-12-31` — downloads PDF with expenses (only “output”).
-
-## Next steps
-⬜ Improvements in validations
-⬜ Frontend - React
-⬜ JWT token
+Projeto simples, direto e funcional — ideal como referência de backend.
 
 ---
 
-[PT]
-# StockControl.API
+## 🧠 Arquitetura
 
-API .NET 8 para controle de gastos, com controle de estoque e exportação de relatório em PDF (QuestPDF) dos materiais desejados.
+**Clean Architecture (Camadas)**
 
-## Tecnologias
-- .NET 8 (ASP.NET Core Web API)
-- EF Core InMemory
-- Swagger (documentação)
-- QuestPDF (Relatório PDF)
+StockControl.API → Controllers / Auth / Swagger
+StockControl.Application → Services / DTOs / Regras de negócio
+StockControl.Domain → Entidades / Interfaces / Regras de domínio
+StockControl.Infrastructure → EF Core / DbContext / Repositórios
 
-## Como rodar
+- Baixo acoplamento  
+- Separação clara de responsabilidades  
+- Repository pattern + DI  
+
+---
+
+## ✅ Funcionalidades
+
+| Feature | Status |
+|---|---|
+Autenticação JWT | ✅
+Login e seed do usuário admin | ✅
+CRUD Usuários | ✅
+CRUD Materiais | ✅
+Movimentação de estoque | ✅
+Relatório PDF de gastos | ✅
+Testes unitários | ✅
+
+---
+
+## 🚀 Tecnologias
+
+- .NET 8 Web API  
+- EF Core  
+- JWT Authentication  
+- QuestPDF  
+- Swagger  
+- Testes unitários
+
+---
+
+## ▶️ Execução da API
+
 ```bash
 dotnet restore
 dotnet run
+Swagger abre em:
+https://localhost:5001/swagger
+
+Usuário inicial (seed):
+email: admin@admin.com
+senha: 123
+
+📂 Endpoints
+🔐 Autenticação
+Método	Rota	Descrição
+POST	/api/usuarios/login	Login e geração JWT
+
+👤 Usuários
+Método	Rota
+GET	    /api/usuarios
+POST	/api/usuarios
+PUT	    /api/usuarios/{id}
+DELETE	/api/usuarios/{id}
+
+📦 Materiais
+Método	Rota
+GET	    /api/materiais
+POST	/api/materiais
+PUT	    /api/materiais/{id}
+DELETE	/api/materiais/{id}
+
+📊 Movimentações de Estoque
+Método	Rota
+POST	/api/estoque/movimentar
+GET	    /api/estoque/movimentos?materialId=1
+
+Regras:
+Não permite estoque negativo
+Calcula valor total
+Registra histórico
+
+🧾 Relatórios PDF
+Método	Rota
+GET	/api/relatorios/gastos/pdf?inicio=01/01/2025&fim=31/12/2025
+
+Gera PDF com:
+Materiais
+Quantidade
+Total gasto (saídas)
+Filtro por data
 ```
+---
 
-## Endpoints
+## 🇺🇸 English Version
+# StockControl.API
 
-### Materiais
-- `GET /api/materiais` — lista materiais
-- `GET /api/materiais/{id}` — detalhe
-- `POST /api/materiais` — cria
-- `PUT /api/materiais/{id}` — atualiza
-- `DELETE /api/materiais/{id}` — remove
+Backend-only.
 
-Exemplo de material:
-```json
-{
-  "nome": "Cimento CP-II",
-  "unidadeMedida": "saco",
-  "custoUnitario": 35.50,
-  "quantidadeEstoque": 0
-}
-```
+REST API in **.NET 8** for material and inventory control, featuring:
 
-### Estoque
-- `POST /api/estoque/movimentar` — entrada/saída
-- `GET /api/estoque/movimentos?materialId=1` — lista movimentos
+- Clean Architecture  
+- Clean Code  
+- JWT Authentication  
+- Users & Materials CRUD  
+- Stock movements (in/out)  
+- PDF reports (QuestPDF)  
+- Automatic seeds  
+- Swagger  
 
-Exemplo de movimento (entrada):
-```json
-{
-  "materialId": 1,
-  "quantidade": 10,
-  "tipo": "entrada",
-  "observacao": "Compra fornecedor X"
-}
-```
+Simple, direct, and functional — ideal as a backend reference.
 
-Exemplo de movimento (saída):
-```json
-{
-  "materialId": 1,
-  "quantidade": 3,
-  "tipo": "saida",
-  "observacao": "Uso na obra Y"
-}
-```
+---
 
-### Relatórios
-- `GET /api/relatorios/gastos/pdf?inicio=2025-01-01&fim=2025-12-31` — baixa PDF com gastos (somente "saída").
+## 🧠 Architecture
 
-## Próximos passos
-⬜ Frontend - React
+**Clean Architecture (Layers)**
+
+StockControl.API → Controllers / Auth / Swagger  
+StockControl.Application → Services / DTOs / Business rules  
+StockControl.Domain → Entities / Interfaces / Domain rules  
+StockControl.Infrastructure → EF Core / DbContext / Repositories  
+
+- Low coupling  
+- Clear separation of concerns  
+- Repository pattern + DI  
+
+---
+
+## ✅ Features
+
+| Feature | Status |
+|---|---|
+JWT Authentication | ✅
+Admin login & seed | ✅
+Users CRUD | ✅
+Materials CRUD | ✅
+Stock movement | ✅
+PDF spending report | ✅
+Unit tests | ✅
+
+---
+
+## 🚀 Tech Stack
+
+- .NET 8 Web API  
+- EF Core  
+- JWT Authentication  
+- QuestPDF  
+- Swagger  
+- Unit tests  
+
+---
+
+## ▶️ Run the API
+
+```bash
+dotnet restore
+dotnet run
+Swagger available at:
+https://localhost:5001/swagger
+
+Initial user (seed):
+user: admin
+password: 123
+
+📂 Endpoints
+
+🔐 Authentication - Login and JWT generation
+Method	Route	
+POST	/api/usuarios/login	
+
+👤 Users
+Method	Route
+GET	    /api/usuarios
+POST	/api/usuarios
+PUT	    /api/usuarios/{id}
+DELETE	/api/usuarios/{id}
+
+📦 Materials
+Method	Route
+GET	    /api/materiais
+POST	/api/materiais
+PUT	    /api/materiais/{id}
+DELETE	/api/materiais/{id}
+
+📊 Stock Movements
+Method	Route
+POST	/api/estoque/movimentar
+GET	    /api/estoque/movimentos?materialId=1
+
+Rules:
+No negative stock allowed
+Calculates total value
+Logs history
+
+🧾 PDF Reports
+Method	Route
+GET	    /api/relatorios/gastos/pdf?inicio=01/01/2025&fim=31/12/2025
+
+Generates PDF with:
+Materials
+Quantity
+Total spent (outputs)
+Date filter
